@@ -1,0 +1,78 @@
+.painting {
+    width: 50vw;
+    min-width: 550px;
+    height: 100vh;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+
+img.main {
+    width: 550px;
+}
+
+.canvas {
+    position: relative;
+    align-self: center;
+}
+
+.ioption1,
+.ioption2,
+.ioption3,
+.ioption4,
+.ioption5,
+.ioption6,
+.ioption7,
+.ioption8 {
+    opacity: 0;
+    position: absolute;
+    transition-duration: 0.5s;
+}
+
+.ioption1,
+.ioption2 {
+    width: 75px;
+    top: 375px;
+    right: 210px;
+}
+
+.ioption3 {
+    width: 130px;
+    top: 350px;
+    right: 200px;
+}
+
+.ioption4 {
+    width: 40px;
+    top: 375px;
+    right: 220px;
+}
+
+.ioption5 {
+    width: 100px;
+    top: 400px;
+    right: 290px;
+}
+
+.ioption6 {
+    width: 65px;
+    top: 410px;
+    right: 330px; 
+}
+
+.ioption7 {
+    width: 100px;
+    top: 320px;
+    right: 300px;
+    transform:rotate(10deg); 
+}
+
+.ioption1 img,
+.ioption2 img,
+.ioption3 img,
+.ioption4 img,
+.ioption5 img,
+.ioption6 img,
+.ioption7 img {
+    width: 100%;
+}

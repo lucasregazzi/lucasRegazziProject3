@@ -1,0 +1,42 @@
+.break {
+    margin-bottom: 25px;
+}
+
+.firstSelection,
+.secondSelection {
+    font-family: Times, serif;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    display: inline-block;
+    position: relative;
+    user-select: none;
+}
+
+.formCheckInline {
+    display: none;
+}
+
+.toggleLeft,
+.toggleRight {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+
+.toggleLeft {
+    left: -30px;
+}
+
+.toggleRight {
+    right: -30px;
+}
+
+.formCheckInline input[type="checkbox"] {
+    display: none;
+}
+
+.vis {
+    display: block;
+    opacity: 1;
+}

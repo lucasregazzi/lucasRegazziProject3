@@ -1,0 +1,33 @@
+//Colourway
+$background: #FFFEF2;
+$text: #0f0f0f;
+$shadow: #FFFFFF;
+
+html,
+body,
+h1,
+main {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
+    background-color: $background;
+    color: $text;
+    font-family: 'Manrope', sans-serif;
+}
+
+body,
+h1 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+h1 {
+    font-weight: normal;
+}

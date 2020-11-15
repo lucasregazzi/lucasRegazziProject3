@@ -1,0 +1,28 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.infoAndToggle {
+    text-align: left;
+    width: 50vw;
+    h1 {
+        display: inline;
+        border-bottom: 1px solid $text;
+    }
+}
+
+.super {
+    font-size: .7em;
+    line-height: .7em;
+    vertical-align: super;
+}
+
+.info,
+.title {
+    max-width: 525px;
+    margin-bottom: 50px;
+}

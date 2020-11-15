@@ -1,0 +1,6 @@
+﻿Pseudocode
+1. Create two variables that house an array of four objects respectively
+   1. Link the contents of the arrays to strings toggleable in the HTML
+2. Create event listeners for the arrows that toggle through the two arrays
+3. Link the strings to corresponding objects positioned on the canvas
+4. Appear and disappear objects on the canvas depending on which objects the user has selected
