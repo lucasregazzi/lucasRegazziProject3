@@ -51,7 +51,8 @@ const secondArray = [
     {
         id: 'option8',
         value: 'an iPhone',
-        url: ''
+        url: '/assets/iphone.png',
+        alt: 'an iPhone with a call to Home in progress'
     }      
 ];
 
