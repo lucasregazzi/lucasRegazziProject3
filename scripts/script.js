@@ -160,8 +160,19 @@ const dropIt = () => {
     })
 }
 
+const resizeCloseToggle = () => {
+    $(window).on('resize', function () {
+        let win = $(this);
+        if ((win.width() >= 1090) && ($('.question').hasClass('flipped'))) {
+            $('.infoDrop').hide();
+            $('.question').removeClass('flipped');
+        }
+    });
+}
+
 stillLifeApp.init = () => {
     dropIt();
+    resizeCloseToggle();
     toggleClick();
     materializeFirstObjects();
     materializeSecondObjects();
