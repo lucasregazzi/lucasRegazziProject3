@@ -83,3 +83,16 @@ img.main {
 .ioption8 img {
     width: 100%;
 }
+
+@media (max-width: 890px) {
+        .painting {
+        width: 100vw;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 550px) {
+        .painting {
+        min-width: 0px;
+    }
+}

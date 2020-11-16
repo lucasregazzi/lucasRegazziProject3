@@ -40,3 +40,16 @@
     display: block;
     opacity: 1;
 }
+
+@media (max-width: 890px) {
+    .firstSelection {
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+    }
+    .secondSelection {
+        position: absolute;
+        bottom: 20px;
+        right: 50px;   
+    }
+}

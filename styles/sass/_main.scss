@@ -1,9 +1,25 @@
-main {
+main,
+aside {
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-items: center;
     align-items: center;
+}
+
+main {
+    justify-items: center;
+}
+
+.infoDrop {
+    justify-content: center;
+    position: absolute;
+    background-color: $background;
+    display: none;
+    z-index: 100;
+}
+
+.infoDropContent {
+    width: 50%;
 }
 
 .infoAndToggle {
@@ -25,4 +41,50 @@ main {
 .title {
     max-width: 525px;
     margin-bottom: 50px;
+}
+
+.question {
+    font-family: Times, serif;
+    text-shadow: 2px 2px 0px $shadow;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+    z-index: 100;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.flipped {
+    transform: rotate(180deg);
+    line-height: 1.2em;
+}
+
+@media (max-width: 1090px) {
+    .info {
+        display: none;
+    }
+    .question {
+        display: block;
+    }
+    .infoDropContent {
+        line-height: 2.4rem;
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 890px) {
+    .infoAndToggle {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+    main {
+        position: relative;
+    }
+    .title {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
 }

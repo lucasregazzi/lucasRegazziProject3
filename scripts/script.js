@@ -153,7 +153,15 @@ const toggleClick = () => {
     });
 }
 
+const dropIt = () => {
+    $('.question').on('click', function(){
+        $('.infoDrop').toggle();
+        $('.question').toggleClass('flipped');
+    })
+}
+
 stillLifeApp.init = () => {
+    dropIt();
     toggleClick();
     materializeFirstObjects();
     materializeSecondObjects();
