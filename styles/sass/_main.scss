@@ -44,8 +44,6 @@ main {
 }
 
 .question {
-    font-family: Times, serif;
-    text-shadow: 2px 2px 0px $shadow;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -54,6 +52,8 @@ main {
     transition-duration: 0.3s;
     cursor: pointer;
     line-height: 1.9em;
+    background-color: transparent;
+    border: none;
 }
 
 .flipped {

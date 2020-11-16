@@ -238,7 +238,8 @@ html {
 html,
 body,
 h1,
-main {
+main,
+button {
   margin: 0;
   padding: 0;
 }
@@ -426,8 +427,6 @@ main {
 }
 
 .question {
-  font-family: Times, serif;
-  text-shadow: 2px 2px 0px #FFFFFF;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -437,6 +436,8 @@ main {
           transition-duration: 0.3s;
   cursor: pointer;
   line-height: 1.9em;
+  background-color: transparent;
+  border: none;
 }
 
 .flipped {
@@ -501,6 +502,8 @@ main {
   cursor: pointer;
   position: absolute;
   top: 0;
+  background-color: transparent;
+  border: none;
 }
 
 .toggleLeft {
