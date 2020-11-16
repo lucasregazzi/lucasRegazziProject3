@@ -1,7 +1,7 @@
 const stillLifeApp = {};
 
-let indexCorr = 0;
-let indexCorr2 = 0;
+let indexCorr = Math.floor((Math.random() * 3));
+let indexCorr2 = Math.floor((Math.random() * 3));
 
 const firstArray = [
     {
